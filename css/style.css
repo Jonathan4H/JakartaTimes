@@ -154,6 +154,9 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+.footer-content a {
+    text-decoration: none;
+}
 footer h4 {
     text-align: center;
     color: black;
