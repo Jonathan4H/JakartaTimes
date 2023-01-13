@@ -2,6 +2,8 @@ body {
     background-color: lightseagreen;
     font-family: sans-serif;
 }
+
+/* Navigation */
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -80,6 +82,7 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* Content */
 .content {
     width: 100%;
     margin: 0 auto;
@@ -130,16 +133,28 @@ body {
 .news-content img {
     padding: 5px 0 0 10px;
 }
-.news-content h3 {
-    margin-top: -10px;
-    padding: 20px 0 20px 10px;
+.news-content p {
+    margin: 0 0 0 10px;
 }
 .news-content:hover {
     background-color: red;
 }
+.news-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
 footer h4 {
-    margin: 0;
-    padding: 25px 0;
     text-align: center;
     color: black;
 }
